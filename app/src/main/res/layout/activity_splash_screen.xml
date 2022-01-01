@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.SplashScreen">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_marginTop="@dimen/intro_screen_image_marginTop"
+        android:src="@drawable/marvel" />
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome to Marvel World"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/splash_screen_title_text_size"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="105dp"
+
+        android:layout_marginTop="205dp"
+        android:layout_marginBottom="-65dp"
+        android:outlineProvider="background"
+        android:src="@drawable/studios" />
+</LinearLayout>
