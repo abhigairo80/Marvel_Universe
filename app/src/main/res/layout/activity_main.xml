@@ -7,28 +7,15 @@
     tools:context=".ui.MainActivity"
     android:orientation="vertical"
     android:layout_gravity="center"
-    android:background="@color/colorPrimary">
+    android:background="#006AB8">
 
-<!--    <TextView-->
-<!--        android:id="@+id/txtTitle"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:padding="10dp"-->
-<!--        android:text="@string/marvel_universe_app"-->
-<!--        android:textColor="@color/black"-->
-<!--        android:textSize="25sp"-->
-<!--        android:textStyle="bold"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.398"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.045" />-->
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/characterRecyclerView"
         android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"/>
+        android:layout_marginBottom="0dp"/>
     <ProgressBar
         android:id="@+id/progress_circular"
         android:layout_width="match_parent"

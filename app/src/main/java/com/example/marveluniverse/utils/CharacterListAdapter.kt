@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.marveluniverse.R
@@ -36,11 +37,11 @@ class CharacterListAdapter(private val context: Context, var itemList:ArrayList<
         holder.characterName.text = list.name
         val imageUrl = "${list.thumbnail}/portrait_xlarge.${list.thumbnailExt}"
         val listofImages = listOf<Int>(R.drawable.image1,R.drawable.image2,
-                            R.drawable.image3,R.drawable.image4,
-                            R.drawable.image6,R.drawable.image7,
-                            R.drawable.image8,R.drawable.image5,R.drawable.marvel,
-                            R.drawable.batman,R.drawable.avengers,R.drawable.characters,
-                            R.drawable.studios)
+            R.drawable.image3,R.drawable.image4,
+            R.drawable.image6,R.drawable.image7,
+            R.drawable.image8,R.drawable.image5,R.drawable.marvel,
+            R.drawable.batman,R.drawable.avengers,R.drawable.characters,
+            R.drawable.studios)
         Glide.with(context).load(imageUrl).placeholder(listofImages[(0..12).random()]).into(holder.thumbnail)
         holder.cardCharacter.setOnClickListener{
             val intent = Intent(context, CharacterActivity::class.java)

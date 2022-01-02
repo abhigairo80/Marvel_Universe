@@ -4,12 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Abhishek/AndroidStudioProjects/MarvelUniverse/app/src/main/res/drawable/background.xml" value="0.10885416666666667" />
+        <entry key="..\:/Users/Abhishek/AndroidStudioProjects/MarvelUniverse/app/src/main/res/drawable/splash_background.xml" value="0.21076923076923076" />
         <entry key="..\:/Users/Abhishek/AndroidStudioProjects/MarvelUniverse/app/src/main/res/layout/activity_character.xml" value="0.1897644927536232" />
         <entry key="..\:/Users/Abhishek/AndroidStudioProjects/MarvelUniverse/app/src/main/res/layout/activity_characters.xml" value="0.1897644927536232" />
         <entry key="..\:/Users/Abhishek/AndroidStudioProjects/MarvelUniverse/app/src/main/res/layout/activity_main.xml" value="0.1897644927536232" />
         <entry key="..\:/Users/Abhishek/AndroidStudioProjects/MarvelUniverse/app/src/main/res/layout/activity_splash_screen.xml" value="0.19157608695652173" />
         <entry key="..\:/Users/Abhishek/AndroidStudioProjects/MarvelUniverse/app/src/main/res/layout/dialog_progress.xml" value="0.13134057971014493" />
-        <entry key="..\:/Users/Abhishek/AndroidStudioProjects/MarvelUniverse/app/src/main/res/layout/recyclerview_grid.xml" value="0.13043478260869565" />
+        <entry key="..\:/Users/Abhishek/AndroidStudioProjects/MarvelUniverse/app/src/main/res/layout/recyclerview_grid.xml" value="0.25" />
         <entry key="..\:/Users/Abhishek/AndroidStudioProjects/MarvelUniverse/app/src/main/res/menu/menu.xml" value="0.19791666666666666" />
       </map>
     </option>

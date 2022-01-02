@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity(),androidx.appcompat.widget.SearchView.On
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         recyclerView = binding.characterRecyclerView
-        layoutManager = GridLayoutManager(this,1)
+        layoutManager = GridLayoutManager(this,2)
         recyclerViewCharacters()
         recyclerView.addOnScrollListener(object: RecyclerView.OnScrollListener() {
             override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity(),androidx.appcompat.widget.SearchView.On
                     }
                     delay(1000)
                 }
-                }
+            }
         }
     }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

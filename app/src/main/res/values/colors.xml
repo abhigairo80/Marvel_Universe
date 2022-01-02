@@ -15,4 +15,8 @@
     <color name="secondary_text_color">#7A8089</color>
 
     <color name="snackbar_error_color">#F72400</color>
+
+    <color name="book_loading_background">#00FFFFFF</color>
+    <color name="book_loading_book">#FFFFFF</color>
+    <color name="book_loading_page">#0C90F1</color>
 </resources>
